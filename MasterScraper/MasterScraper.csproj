@@ -49,10 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Midi.cs" />
+    <Compile Include="IErrorLogger.cs" />
+    <Compile Include="PagalWorldScraper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utility.cs" />
+    <Compile Include="Scraper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
